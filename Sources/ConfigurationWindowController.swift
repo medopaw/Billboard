@@ -19,7 +19,7 @@ class ConfigurationWindowController: NSWindowController {
 
 	// MARK: - Action
 
-	@IBAction func close(sender: AnyObject?) {
+	@IBAction func close(_ sender: AnyObject?) {
 		if let window = window {
 			window.sheetParent?.endSheet(window)
 		}

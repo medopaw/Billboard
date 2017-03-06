@@ -15,8 +15,8 @@ final class PlaceView: NSView {
 	let textLabel: Label = {
 		let label = Label()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.textColor = .whiteColor()
-		label.alignment = .Center
+		label.textColor = .white
+		label.alignment = .center
 		return label
 	}()
 
@@ -24,7 +24,7 @@ final class PlaceView: NSView {
 		let label = Label()
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.textColor = NSColor(white: 1, alpha: 0.5)
-		label.alignment = .Center
+		label.alignment = .center
 		return label
 	}()
 
@@ -37,14 +37,14 @@ final class PlaceView: NSView {
 		addSubview(textLabel)
 		addSubview(detailTextLabel)
 
-		NSLayoutConstraint.activateConstraints([
-			textLabel.leadingAnchor.constraintEqualToAnchor(leadingAnchor),
-			textLabel.topAnchor.constraintEqualToAnchor(topAnchor),
-			textLabel.trailingAnchor.constraintEqualToAnchor(trailingAnchor),
-			textLabel.bottomAnchor.constraintEqualToAnchor(detailTextLabel.topAnchor),
-			detailTextLabel.leadingAnchor.constraintEqualToAnchor(leadingAnchor),
-			detailTextLabel.bottomAnchor.constraintEqualToAnchor(bottomAnchor),
-			detailTextLabel.trailingAnchor.constraintEqualToAnchor(trailingAnchor)
+		NSLayoutConstraint.activate([
+			textLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+			textLabel.topAnchor.constraint(equalTo: topAnchor),
+			textLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
+			textLabel.bottomAnchor.constraint(equalTo: detailTextLabel.topAnchor),
+			detailTextLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+			detailTextLabel.bottomAnchor.constraint(equalTo: bottomAnchor),
+			detailTextLabel.trailingAnchor.constraint(equalTo: trailingAnchor)
 		])
 	}
 	
