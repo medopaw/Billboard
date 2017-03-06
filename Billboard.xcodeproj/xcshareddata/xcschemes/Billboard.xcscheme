@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21F222391B73B60100B9A11A"
-               BuildableName = "Preview.app"
-               BlueprintName = "Preview"
-               ReferencedContainer = "container:Countdown.xcodeproj">
+               BlueprintIdentifier = "21F222251B73B5AC00B9A11A"
+               BuildableName = "Countdown.saver"
+               BlueprintName = "Billboard"
+               ReferencedContainer = "container:Billboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F222391B73B60100B9A11A"
-            BuildableName = "Preview.app"
-            BlueprintName = "Preview"
-            ReferencedContainer = "container:Countdown.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F222391B73B60100B9A11A"
-            BuildableName = "Preview.app"
-            BlueprintName = "Preview"
-            ReferencedContainer = "container:Countdown.xcodeproj">
+            BlueprintIdentifier = "21F222251B73B5AC00B9A11A"
+            BuildableName = "Countdown.saver"
+            BlueprintName = "Billboard"
+            ReferencedContainer = "container:Billboard.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F222391B73B60100B9A11A"
-            BuildableName = "Preview.app"
-            BlueprintName = "Preview"
-            ReferencedContainer = "container:Countdown.xcodeproj">
+            BlueprintIdentifier = "21F222251B73B5AC00B9A11A"
+            BuildableName = "Countdown.saver"
+            BlueprintName = "Billboard"
+            ReferencedContainer = "container:Billboard.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

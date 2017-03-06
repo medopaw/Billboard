@@ -37,7 +37,7 @@
 		212EA5FE1CA10F370049BD16 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		212EA6011CA110920049BD16 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		212EA6031CA110F80049BD16 /* PlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
-		21F222261B73B5AC00B9A11A /* Countdown.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Countdown.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F222261B73B5AC00B9A11A /* Billboard.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Billboard.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F2223A1B73B60100B9A11A /* Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 		21F222271B73B5AC00B9A11A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21F222261B73B5AC00B9A11A /* Countdown.saver */,
+				21F222261B73B5AC00B9A11A /* Billboard.saver */,
 				21F2223A1B73B60100B9A11A /* Preview.app */,
 			);
 			name = Products;
@@ -139,9 +139,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		21F222251B73B5AC00B9A11A /* Countdown */ = {
+		21F222251B73B5AC00B9A11A /* Billboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21F222311B73B5AC00B9A11A /* Build configuration list for PBXNativeTarget "Countdown" */;
+			buildConfigurationList = 21F222311B73B5AC00B9A11A /* Build configuration list for PBXNativeTarget "Billboard" */;
 			buildPhases = (
 				21F222211B73B5AC00B9A11A /* Sources */,
 				21F222221B73B5AC00B9A11A /* Frameworks */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = Countdown;
+			name = Billboard;
 			productName = Motivation;
-			productReference = 21F222261B73B5AC00B9A11A /* Countdown.saver */;
+			productReference = 21F222261B73B5AC00B9A11A /* Billboard.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 		21F222391B73B60100B9A11A /* Preview */ = {
@@ -194,7 +194,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 21F222201B73B5AC00B9A11A /* Build configuration list for PBXProject "Countdown" */;
+			buildConfigurationList = 21F222201B73B5AC00B9A11A /* Build configuration list for PBXProject "Billboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -207,7 +207,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21F222251B73B5AC00B9A11A /* Countdown */,
+				21F222251B73B5AC00B9A11A /* Billboard */,
 				21F222391B73B60100B9A11A /* Preview */,
 			);
 		};
@@ -365,7 +365,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.countdown;
-				PRODUCT_NAME = Countdown;
+				PRODUCT_NAME = Billboard;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
@@ -384,7 +384,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.countdown;
-				PRODUCT_NAME = Countdown;
+				PRODUCT_NAME = Billboard;
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
@@ -426,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21F222201B73B5AC00B9A11A /* Build configuration list for PBXProject "Countdown" */ = {
+		21F222201B73B5AC00B9A11A /* Build configuration list for PBXProject "Billboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21F2222F1B73B5AC00B9A11A /* Debug */,
@@ -435,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21F222311B73B5AC00B9A11A /* Build configuration list for PBXNativeTarget "Countdown" */ = {
+		21F222311B73B5AC00B9A11A /* Build configuration list for PBXNativeTarget "Billboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21F222321B73B5AC00B9A11A /* Debug */,
