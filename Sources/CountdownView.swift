@@ -117,10 +117,10 @@ class CountdownView: ScreenSaverView {
 		let now = Date()
 		let components = (Calendar.current as NSCalendar).components(units, from: now, to: date, options: [])
 
-		daysView.textLabel.stringValue = String(format: "%02d", abs(components.day)!)
-		hoursView.textLabel.stringValue = String(format: "%02d", abs(components.hour)!)
-		minutesView.textLabel.stringValue = String(format: "%02d", abs(components.minute)!)
-		secondsView.textLabel.stringValue = String(format: "%02d", abs(components.second)!)
+		daysView.textLabel.stringValue = String(format: "%02d", abs(components.day!))
+		hoursView.textLabel.stringValue = String(format: "%02d", abs(components.hour!))
+		minutesView.textLabel.stringValue = String(format: "%02d", abs(components.minute!))
+		secondsView.textLabel.stringValue = String(format: "%02d", abs(components.second!))
 	}
 
 	override func hasConfigureSheet() -> Bool {
